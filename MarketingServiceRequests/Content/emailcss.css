@@ -190,6 +190,7 @@ border {
 }
 
 section {
+    border-style: groove;
     background-color: white;
     margin: 0px 50px 10px 50px;
     padding: 0px;

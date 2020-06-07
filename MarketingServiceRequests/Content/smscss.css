@@ -195,6 +195,7 @@ border {
 }
 
 section {
+    border-style: groove;
     background-color: white;
     margin: 0px 50px 10px 50px;
     padding: 0px;
@@ -298,7 +299,7 @@ input[type="checkbox"] {
     -ms-user-select: none;
     user-select: none;
 }
-/* Manish CSS Endss */
+
 input[type="file"] {
     display: none;
 }
