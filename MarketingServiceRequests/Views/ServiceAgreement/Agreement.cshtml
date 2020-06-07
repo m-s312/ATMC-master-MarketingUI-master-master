@@ -2,12 +2,11 @@
 @{
     ViewBag.Title = "Agreement";
 }
-    <head>
-        <link href="~/Content/agreementcss.css" rel="stylesheet" />
-        <style>
-
-        </style>
-    </head>
+<head>
+    <link href="~/Content/agreementcss.css" rel="stylesheet" />
+    <style>
+    </style>
+</head>
 @using (Html.BeginForm("AgreementSubmit", "ServiceAgreement"))
 {
 
@@ -29,7 +28,7 @@
                                         @Session["UserName"]
                                     }
                                 } <span class="fa fas fa-angle-down ml-3 mt-3"></span>
-                               
+
                             </a>
                             <div class="dropdown-content">
                                 @Html.ActionLink("Logout", "LogOut", "Login")
@@ -53,7 +52,7 @@
 
             <div id="pointer0">
                 <p id="step1" class="step">Agreement</p>
-            </div> 
+            </div>
         </div>
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <section>

@@ -8,13 +8,11 @@
         <link href="~/Content/copywritingcss.css" rel="stylesheet" />
         <style>
 
-            /* Manish CSS Starts */
-
-
         </style>
         <script>
             $(document).ready(function () {
-                $('input[type=submit]').prop("disabled", true);
+                $('input[type=submit]').prop("disabled", false);
+
                 $("#ContentVerification_link").on('click', function (e) {
                     e.preventDefault();
                     $("#ContentVerification_input:hidden").trigger('click');

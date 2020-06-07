@@ -49,7 +49,7 @@ body {
 }
 
 textarea {
-    width: 278.5px;
+    width: 280px;
 }
 
 .wrapper {
@@ -255,6 +255,7 @@ input[type="checkbox"] {
     height: 23px;
     width: 23px;
     border: 1px solid white;
+    margin: 5px;
 }
 
     input[type="checkbox"]:checked {

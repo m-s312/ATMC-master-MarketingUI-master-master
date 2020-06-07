@@ -138,58 +138,65 @@
             <div>
                 @Html.Label("Type of Design")
             </div>
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("Booklet", false)<span style="padding:0 15px 0px 0px">Booklet </span>
-                <input type="file" name="BookletFile" id="Booklet_input" />
-                <a href="" id="Booklet_link" style="padding:0 10px 0 10px"> (Attach Booklet) </a>
-                <span id="Booklet_span"></span>
-            </div>
-
-
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("Flyer", false) <span style="padding:0 15px 0 0px"> Flyer </span>
-                <input type="file" name="FlyerFile" id="Flyer_input" />
-                <a href="" id="Flyer_link" style="padding:0 10px 0 10px"> (Attach Flyer) </a>
-                <span id="Flyer_span"></span>
-            </div>
-
-
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("Brochure", false) <span style="padding:0 15px 0 0px"> Brochure </span>
-                <input type="file" name="BrochureFile" id="Brochure_input" />
-                <a href="" id="Brochure_link" style="padding:0 10px 0 10px"> (Attach Brochure) </a>
-                <span id="Brochure_span"></span>
-            </div>
-
-
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("InvitationCard", false) <span style="padding:0 15px 0 0px"> InvitationCard </span>
-                <input type="file" name="InvitationCardFile" id="InvitationCard_input" />
-                <a href="" id="InvitationCard_link" style="padding:0 10px 0 10px"> (Attach InvitationCard) </a>
-                <span id="InvitationCard_span"></span>
-            </div>
-
-
-
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("PopupBanner", false) <span style="padding:0 15px 0 0px"> PopupBanner </span>
-                <input type="file" name="PopupBannerFile" id="PopupBanner_input" />
-                <a href="" id="PopupBanner_link" style="padding:0 10px 0 10px"> (Attach PopupBanner) </a>
-                <span id="PopupBanner_span"></span>
-            </div>
-
-
-            <div class="form-check second-col-checkboxes">
-                @Html.CheckBox("Poster", false) <span style="padding:0 15px 0 0px"> Poster </span>
-                <input type="file" name="PosterFile" id="Poster_input" />
-                <a href="" id="Poster_link" style="padding:0 10px 0 10px"> (Attach Poster) </a>
-                <span id="Poster_span"></span>
+            <div>
+                <div class="form-check form-check-inline">
+                    @Html.CheckBox("Booklet", false)<span>Booklet </span>
+                    <input type="file" name="BookletFile" id="Booklet_input" />
+                    <a href="" id="Booklet_link" style="padding:0 10px 0 10px"> (Attach Booklet) </a>
+                    <span id="Booklet_span"></span>
+                </div>
             </div>
             <div>
-                <p>
-                    Note:	Afer	completing	your	request,	the	high	resolution	design	will	be	shred	with	you	and	you	have	to	print	it	through	Purchasing	department.
-                </p>
+                <div class="form-check form-check-inline">
+                    @Html.CheckBox("Flyer", false) <span> Flyer </span>
+                    <input type="file" name="FlyerFile" id="Flyer_input" />
+                    <a href="" id="Flyer_link" style="padding:0 10px 0 10px"> (Attach Flyer) </a>
+                    <span id="Flyer_span"></span>
+                </div>
             </div>
+            <div>
+                <div class="form-check form-check-inline">
+
+
+                    @Html.CheckBox("Brochure", false) <span style="padding:0 15px 0 0px"> Brochure </span>
+                    <input type="file" name="BrochureFile" id="Brochure_input" />
+                    <a href="" id="Brochure_link" style="padding:0 10px 0 10px"> (Attach Brochure) </a>
+                    <span id="Brochure_span"></span>
+                </div>
+
+            </div>
+            <div>
+                <div class="form-check form-check-inline">
+                    @Html.CheckBox("InvitationCard", false) <span style="padding:0 15px 0 0px"> InvitationCard </span>
+                    <input type="file" name="InvitationCardFile" id="InvitationCard_input" />
+                    <a href="" id="InvitationCard_link" style="padding:0 10px 0 10px"> (Attach InvitationCard) </a>
+                    <span id="InvitationCard_span"></span>
+                </div>
+
+            </div>
+            <div>
+
+                <div class="form-check form-check-inline">
+                    @Html.CheckBox("PopupBanner", false) <span style="padding:0 15px 0 0px"> PopupBanner </span>
+                    <input type="file" name="PopupBannerFile" id="PopupBanner_input" />
+                    <a href="" id="PopupBanner_link" style="padding:0 10px 0 10px"> (Attach PopupBanner) </a>
+                    <span id="PopupBanner_span"></span>
+                </div>
+            </div>
+            <div>
+
+                <div class="form-check form-check-inline">
+                    @Html.CheckBox("Poster", false) <span style="padding:0 15px 0 0px"> Poster </span>
+                    <input type="file" name="PosterFile" id="Poster_input" />
+                    <a href="" id="Poster_link" style="padding:0 10px 0 10px"> (Attach Poster) </a>
+                    <span id="Poster_span"></span>
+                </div>
+                </div>
+                <div>
+                    <p>
+                        Note:	Afer	completing	your	request,	the	high	resolution	design	will	be	shred	with	you	and	you	have	to	print	it	through	Purchasing	department.
+                    </p>
+                </div>
         </article>
     </section>
     <div class="card">
