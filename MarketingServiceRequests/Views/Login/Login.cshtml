@@ -5,44 +5,20 @@
     Layout = null;
 }
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Marketing Service Request</title>
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>
-    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-    <style>
-        body {
-            background-image: url('../Images/medical_img.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            z-index: -5;
-        }
-
-        .col-md-8 {
-            float: none;
-            margin-left: 15px;
-        }
-
-        .control-label {
-            padding: 2px;
-            margin-left: 34px;
-        }
-
-        .ol-md-offset-5 col-md-7 {
-            margin-left: 8.66666666666667%
-        }
-
-        .form-control {
-            width: 130%;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - Marketing Service Request</title>
+        <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/logincss.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="~/Scripts/modernizr-2.6.2.js"></script>
+        <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+        <style>
+        </style>
+    </head>
 
 @using (Html.BeginForm())
 {
@@ -79,8 +55,8 @@
             </div>
             <p style="margin-left:40px">@Html.CheckBox("isNewlyEnrolled", true)Remember</p>
             <div class="form-group">
-                <div class="col-md-offset-5 col-md-7" style="margin-left:8.66666666666667%">
-                    <input type="submit" value="Login" class="btn" style="background-color:lawngreen;color:white;width:150%" />
+                <div class="col-md-offset-5 col-md-7" style="margin-left:5.266666666666667%">
+                    <input type="submit" value="Login" class="btn" style="background-color:#385f92;color:white;width:150%" />
                 </div>
             </div>
 

@@ -1,0 +1,27 @@
+﻿/*Login Page*/
+body {
+    background-image: url('../Images/medical_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+}
+
+.col-md-8 {
+    float: none;
+    margin-left: 15px;
+}
+
+.control-label {
+    padding: 2px;
+    margin-left: 34px;
+}
+
+.ol-md-offset-5 col-md-7 {
+    margin-left: 8.66666666666667%
+}
+
+.form-control {
+    width: 130%;
+}
+        

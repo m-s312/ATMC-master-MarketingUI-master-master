@@ -1,0 +1,342 @@
+﻿.logo {
+    height: 80px;
+    width: 120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    margin: 0px 50px 10px 50px;
+}
+
+.navbar {
+    background-color: #fff !important;
+    margin: 0px;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-link {
+    border-left: 1px solid rgba(70, 64, 64, 0.199);
+}
+
+.fa {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumb {
+    padding-left: 51px !important;
+    margin: 0px;
+    border: 1px solid rgba(70, 64, 64, 0.199);
+}
+
+.breadcrumb-item {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+body {
+    background-color: #e9ecef;
+    font-size: 15px;
+}
+
+.wrapper {
+    margin: 10px 50px 10px 40px;
+    display: flex;
+    background-color: #e9ecef;
+    font-size: 12px;
+}
+
+.step {
+    color: black;
+    font-weight: bold;
+    padding: 4%;
+    text-align: center;
+    object-fit: cover;
+}
+
+#step1 {
+    color: #fff;
+}
+
+#step2 {
+    color: rgba(70, 64, 64, 0.4);
+}
+
+#pointer0 {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background: #385f92;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#pointer1 {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background: #385f92;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#pointer2 {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background: #fff;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#pointer0:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #385f92;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+#pointer1:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #385f92;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+#pointer1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #e9ecef;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+#pointer2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #e9ecef;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+
+#pointer2:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+nav1 ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+    nav1 ul li a {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        padding: 8px 30px;
+        text-align: left;
+        display: block;
+    }
+
+        nav1 ul li a:hover {
+            text-decoration: none;
+            background-color: #F6FCFC;
+            color: black;
+        }
+
+    nav1 ul li.active a {
+        background-color: #F6FCFC;
+        color: black;
+    }
+
+border {
+    border-style: groove;
+}
+
+section {
+    background-color: white;
+    margin: 0px 50px 10px 50px;
+    padding: 0px;
+    font-size: 15px;
+}
+/* Create two columns/boxes that floats next to each other */
+nav1 {
+    float: left;
+    width: 30%;
+    background: white;
+    padding: 10px;
+}
+
+/* Style the list inside the menu */
+article {
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 68%;
+    background-color: #F6FCFC;
+}
+
+/* Clear floats after the columns */
+section:before {
+    content: "";
+    display: table;
+    margin: 10px;
+    clear: both;
+}
+
+section:after {
+    content: "";
+    display: table;
+    margin: 10px;
+    clear: both;
+}
+
+.btn {
+    background-color: #385f92;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    width: 100px;
+    float: right;
+    margin: 5px;
+}
+
+
+input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: 0;
+    background: lightgray;
+    height: 23px;
+    width: 23px;
+    border: 1px solid white;
+}
+
+    input[type="checkbox"]:checked {
+        background: hsl(138, 64%, 46%);
+    }
+
+    input[type="checkbox"]:hover {
+        filter: brightness(90%);
+    }
+
+    input[type="checkbox"]:after {
+        content: "";
+        position: relative;
+        left: 35%;
+        top: 10%;
+        width: 35%;
+        height: 60%;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        display: none;
+    }
+
+    input[type="checkbox"]:checked:after {
+        display: block;
+    }
+
+
+.second-col-checkboxes-label {
+    margin: 5px 10px 0px 10px;
+}
+
+.second-col-checkboxes {
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Manish CSS Endss */
+input[type="file"] {
+    display: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        border-radius: 5px;
+        color: black;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: lightseagreen;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
