@@ -80,13 +80,14 @@
                         <div class="dropdown">
                            
                             <a class="nav-link" href="#">
-                                <span class="fa fas fa-angle-down ml-3 mt-3"></span>
+
                                 @{
                                     if (Session["UserName"] != null)
                                     {
                                         @Session["UserName"]
                                     }
                                 }
+                                <span class="fa fas fa-angle-down ml-3 mt-3"></span>
                             </a>
                             <div class="dropdown-content">
                                 @Html.ActionLink("Logout", "LogOut", "Login")
