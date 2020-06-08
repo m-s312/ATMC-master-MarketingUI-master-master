@@ -227,7 +227,7 @@ section {
     }
 
         .dropdown-content a:hover {
-            background-color: lightseagreen;
+            background-color: #385f92;
         }
 
 .dropdown:hover .dropdown-content {
